@@ -3,7 +3,17 @@ entries:
   helm_gate8:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-05-14T18:43:20.700294333+02:00"
+    created: "2023-05-15T11:50:32.414798917+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 63dda04ce06d87789ad8a00783e263882e0a5a717a56a19dc954598f29ae2623
+    name: helm_gate8
+    type: application
+    urls:
+    - helm_gate8-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-05-15T11:50:32.414403547+02:00"
     description: A Helm chart for Kubernetes
     digest: e47e48c1b56bccf26bb38530d4ec73f9a97dc2ca749080dac8758a73c90493b9
     name: helm_gate8
@@ -11,4 +21,4 @@ entries:
     urls:
     - helm_gate8-1.0.0.tgz
     version: 1.0.0
-generated: "2023-05-14T18:43:20.694526124+02:00"
+generated: "2023-05-15T11:50:32.413961556+02:00"
