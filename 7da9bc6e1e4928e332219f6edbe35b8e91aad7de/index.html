@@ -1,14 +1,75 @@
-https://status-ovhcloud.com/
-https://network.status-ovhcloud.com/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OVHCloud Status</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0073b7;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #0073b7;
+        }
+        .status-link {
+            text-decoration: none;
+            color: #0073b7;
+        }
+        .status-link:hover {
+            text-decoration: underline;
+        }
+        .status-section {
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>OVHCloud Status</h1>
+    </header>
+    <div class="container">
+        <div class="status-section">
+            <h2>Status Pages</h2>
+            <ul>
+                <li><a class="status-link" href="https://status-ovhcloud.com/" target="_blank">Main Status Page</a></li>
+                <li><a class="status-link" href="https://network.status-ovhcloud.com/" target="_blank">Network Status</a></li>
+            </ul>
+        </div>
+        <div class="status-section">
+            <h2>Server Status</h2>
+            <h3>barbazul</h3>
+            <p>Location: WAW1 - W12A02</p>
+            <p><a class="status-link" href="http://vms.status-ovhcloud.com/index_waw1.html" target="_blank">Check Status</a></p>
 
-barbazul WAW1- W12A02
-http://vms.status-ovhcloud.com/index_waw1.html
+            <h3>arnold</h3>
+            <p>Location: WAW1 - W17A06</p>
+            <p><a class="status-link" href="http://vms.status-ovhcloud.com/index_waw1.html" target="_blank">Check Status</a></p>
 
-arnold  WAW1 -W17A06
-http://vms.status-ovhcloud.com/index_waw1.html
+            <h3>edge</h3>
+            <p>Location: RBX8 - Roubaix - R802L01</p>
+            <p><a class="status-link" href="http://vms.status-ovhcloud.com/index_rbx8.html" target="_blank">Check Status</a></p>
 
-edge RBX8 - Roubaix - R802L01
-http://vms.status-ovhcloud.com/index_rbx8.html
-
-vampire RBX8 - Roubaix - R802L01
-http://vms.status-ovhcloud.com/index_rbx8.html
+            <h3>vampire</h3>
+            <p>Location: RBX8 - Roubaix - R802L01</p>
+            <p><a class="status-link" href="http://vms.status-ovhcloud.com/index_rbx8.html" target="_blank">Check Status</a></p>
+        </div>
+    </div>
+</body>
+</html>
